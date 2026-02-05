@@ -14,7 +14,7 @@ doctest    = false
 oxc_resolver = { path = "..", package = "rustbolt_resolver" }
 napi = { version = "3.0.0-alpha", default-features = false, features = ["napi3", "serde-json"] }
 napi-derive = { version = "3.0.0-alpha" }
-tracing-subscriber = { version = "0.3.18", default-features = false, features = [
+tracing-subscriber = { version = "0.3.20", default-features = false, features = [
   "std",
   "fmt",
 ] } # Omit the `regex` feature
